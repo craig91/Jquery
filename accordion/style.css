@@ -1,0 +1,48 @@
+html{
+
+
+}
+
+
+
+h1{
+	color: red;
+	width: 100%;
+	border-bottom: 1px solid black;
+}
+
+.slogan{
+	color: #998675;
+	font-family: Libre Baskerville;
+	padding-left: 290px;
+}
+
+
+
+
+.small-map{
+	width: 195px;
+}
+
+.accordion-toggle {
+		cursor: pointer;
+	}
+
+	.accordion-content {
+		display: none;
+    }
+
+    .accordion-content.default {
+    	display: block;
+    }
+
+    .accordion-toggle.open:after {   
+    	content: url(acc_up.png);
+    	float: right;
+    	
+    } 
+    .accordion-toggle.closed:after {   
+    	content: url(acc_down.png);
+    	float: right;
+    	
+    }
