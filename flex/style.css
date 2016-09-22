@@ -1,0 +1,134 @@
+html{
+
+}
+
+body{
+	background-color: #FDF4ED;		
+}
+
+
+
+#master{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.container {
+	
+    height: 118px;
+    width: 100%;
+    background-color:#EC1C24;
+}
+
+.container2 {
+	
+    height: 300px;
+    width: 100%;
+    background-color: yellow;
+}
+
+
+.container3 {
+	
+    height: auto;
+    width: 100%;
+    background-color:#FDF4ED;
+}
+
+
+h1{
+	width: 100%;
+	border-bottom: 1px solid black;
+}
+
+.slogan{
+	color: #998675;
+	font-family: cursive;
+	/*padding-left: 290px;*/
+	float: center;
+	width: 100%;
+}
+
+.small-map{
+	width: 195px;
+}
+
+
+
+
+.img-left{
+	float: left;
+}
+
+.ramen-column{
+	margin-left: 100px;
+}
+
+.body-u{
+	padding-left: 100px;
+	}
+
+.body2{
+	padding-left: 100px;
+}
+
+hr { 
+width: 210px;
+color: #72421a;
+background-color: #72421a;
+margin-top: 0px;
+margin-bottom: 50px;
+
+
+}
+
+
+.title-left{
+	padding-left: 47%;
+}
+
+.descript{
+	padding-left: 44%;
+	position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Accordion styles------------------------------------------------------------------*/
+.accordion-toggle {
+		cursor: pointer;
+	}
+
+	.accordion-content {
+		display: none;
+    }
+
+    .accordion-content.default {
+    	display: block;
+    }
+
+    .accordion-toggle.open:after {
+    	content: url(../images/acc_up.png);
+    	float: right;
+
+    }
+    .accordion-toggle.closed:after {
+    	content: url(../images/acc_down.png);
+    	float: right;
+
+    }
+/*End of Accordion styles-------------------------------------------------------------*/

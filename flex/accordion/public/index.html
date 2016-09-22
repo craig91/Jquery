@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div id="accordion">
+  <h1 class="accordion-toggle open">ABOUT</h1>
+
+    <div class="accordion-content default">
+
+
+
+    <p class="slogan">Welcome to Mentoku, Authentic <br />             Hakata Ramen from Japan, <br/>              located in the heart of <br />
+                New York City Ramen District</p>
+
+
+    <div class="small-map">
+      <img src="../images/map_small.jpg" alt="map" width="500" height="450"><br/>
+            <p class="body2">
+            <a href="https://www.google.com/maps/place/Mentoku+Ramen/@40.763522,-73.98851,15z/data=!4m2!3m1!1s0x0:0xf98f5b0ae4752ce4?sa=X&ved=0ahUKEwiu1oyF4O3JAhVGPz4KHSP9D9wQ_BIIajAO" target="_blank">
+      <span class="body"><u>View in google map</u></a></span>
+            </p>
+
+    </div>
+
+
+
+
+
+<p>"We want to introduce the real taste of Japanese ramen to NYC"</p>
+<p>The newest addition to Manhattan's Ramen district,
+Mentoku Ramen stays true to the soul of the Japanese
+ramen experience. Serving high quality Hakata style
+"Tonkotsu" ramen at lower prices, Mentoku prides itself
+in using only the freshest and most flavorful ingredients</p>
+
+<br />
+
+<p>About Owner Chef, Yasuo Okada</p>
+<p>Trained by a master chef in a classic Japanese "Uotoku"
+restaurant, Mr.Okada brings his long tradition of Hakata
+ramen to NYC. After 7n years of studying and successfully running multiple Tokyo resturants, he finally achieved his dream of opening Mentoku Ramen NY in November 2015.</p>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<h1 class="accordion-toggle closed">RAMEN</h1>
+	<div class="tonkotsu-info">
+
+       <span class="body">
+       <span class="body2">Mentoku Tonkotsu Soup</span><br/>
+       By cooking fresh pork bones at a high temperature for 15 hours in a large
+
+<p>"We, tick pot, a creamy and richly flavored broth is born. Each drop contains a tantalizing smoothness and near fathomless depth, harmonizing exquisitely with the thin and hard noodles. Every spoonful is bursting with mellow fragrance, refine sweetness and deep flavor that spread in the mouth.
+ </span>
+
+
+
+
+		</div>
+		<div class ="ramen-column1"><!-- 1. GENRYU-------->
+		      <img class ="img-left" src="../images/ramen_01_genryu.png" alt="Hakata Genryu" height="80px"width="98px">
+		      </div>
+		            <div class ="ramen-column">
+		      <p class="names">1. HAKATA GENRYU RAMEN</p>
+		      <p class="body">
+		      The original Tonkotsu pork soup. Thin flat noodles are topped with pork loin chashu, menma, and scallions.
+		      <p class="body2">
+		      $9.80 </p></p>
+
+		      </div>
+
+
+		<div class ="ramen-column3"><!-- 2. TONKICHI-------->
+					<img class ="img-left" src = "../images/ramen_02_tonkichi.png" alt="Hakata Tonkichi" height="80px"width="98px">
+					</div>
+					      <div class ="ramen-column">
+					<p class="names">2. HAKATA TONKICHI RAMEN</p>
+					<p class="body">
+					The original Tonkotsu pork soup. Thin flat noodles are topped with pork loin chashu, kikurage mushrooms and scallions.
+					<p class="body2">
+					$9.80 </p></p>
+
+					</div>
+
+
+
+
+					<div class ="ramen-column1"><!-- 3. YUZU-KOSHO-------->
+			      <img class ="img-left" src="../images/ramen_03_yuzukosho.png" alt="Hakata Genryu" height="80px"width="98px">
+			      </div>
+			            <div class ="ramen-column2">
+			      <p class="names">3. YUZU-KOSHO RAMEN</p>
+			      <p class="body-u">
+			      <font color="#CC3300"><b>Spicy</b></font><br/>
+			      Spicy pork soup noodles with peppery yuzu paste. Topped with pork loin chashu, menma, takana, nori and scallions.
+            <p class="body2">
+			      $11.00 </p></p>
+
+			      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="accordion-content"><p>Lorem ipsum #2</p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<h1 class="accordion-toggle closed">MENU</h1>
+
+    <div class="accordion-content"><p>Lorem ipsum #3</p></div>
+
+
+
+ <h1 class="accordion-toggle closed">LUNCH SPECIAL</h1>
+
+    <div class="accordion-content"><p>Lorem ipsum #3</p></div>
+
+
+ <h1 class="accordion-toggle closed">PRESS</h1>
+
+    <div class="accordion-content"><p>Lorem ipsum #3</p></div>
+
+
+ <h1 class="accordion-toggle closed">CONTACT</h1>
+
+    <div class="accordion-content"><p>Lorem ipsum #3</p></div>
+
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+<script>
+$(document).ready(function($) {
+     $('#accordion').find('.accordion-toggle').click(function(){
+     //Expand or collapse this panel
+     $(this).next().slideToggle('fast');
+     //Hide the other panels
+     if($(this).hasClass("closed")) {
+
+     	$(this).removeClass("closed").addClass("open");
+
+     } else {
+
+     	$(this).removeClass("open").addClass("closed");
+
+     }
+
+
+
+
+     $(".accordion-content").not($(this).next()).slideUp('fast');
+
+     $(".accordion-toggle").not($(this)).removeClass("open").addClass("closed");
+ });
+
+});
+
+</script>
+
+</body>
+</html>

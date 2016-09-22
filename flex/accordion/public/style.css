@@ -1,0 +1,82 @@
+html{
+
+
+}
+
+
+
+h1{
+	width: 100%;
+	border-bottom: 1px solid black;
+}
+
+.slogan{
+	color: #998675;
+	font-family: cursive;
+	/*padding-left: 290px;*/
+	float: center;
+	width: 100%;
+}
+
+.small-map{
+	width: 195px;
+}
+
+
+
+
+.img-left{
+	float: left;
+}
+
+.ramen-column{
+	margin-left: 100px;
+}
+
+.body-u{
+	padding-left: 100px;
+	}
+
+.body2{
+	padding-left: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Accordion styles------------------------------------------------------------------*/
+.accordion-toggle {
+		cursor: pointer;
+	}
+
+	.accordion-content {
+		display: none;
+    }
+
+    .accordion-content.default {
+    	display: block;
+    }
+
+    .accordion-toggle.open:after {
+    	content: url(../images/acc_up.png);
+    	float: right;
+
+    }
+    .accordion-toggle.closed:after {
+    	content: url(../images/acc_down.png);
+    	float: right;
+
+    }
+/*End of Accordion styles-------------------------------------------------------------*/
